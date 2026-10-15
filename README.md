@@ -10,13 +10,13 @@ not included; [docs/03_data.md](docs/03_data.md) lists where every input comes f
 ## The paper
 
 **Relative roles of spatial resolution and temporal coverage in basin-average SMAP soil
-moisture assimilation over the Mekong River Basin**
+moisture assimilation over the Mekong River basin**
 
 Sebastian R.O. Marshall, Duc Tran, Binh Quang Nguyen, Manh-Hung Le, Bin Fang, Hesham
 Elhaddad, John Eylander, Sameh A. Kantoush, John D. Bolten and Venkataraman Lakshmi
 
-*Journal of Hydrology*, in revision. Corresponding author: Sebastian R.O. Marshall
-(smarsh46@jh.edu).
+*Journal of Hydrology* (2026), 136599. https://doi.org/10.1016/j.jhydrol.2026.136599
+Corresponding author: Sebastian R.O. Marshall (smarsh46@jh.edu).
 
 ### Abstract
 
@@ -175,19 +175,21 @@ from where and the terms that apply. Code written for this study is MIT licensed
 If you use this framework, please cite the paper:
 
 > Marshall, S.R.O., Tran, D., Nguyen, B.Q., Le, M.-H., Fang, B., Elhaddad, H., Eylander, J.,
-> Kantoush, S.A., Bolten, J.D., Lakshmi, V. Relative roles of spatial resolution and temporal
-> coverage in basin-average SMAP soil moisture assimilation over the Mekong River Basin.
-> *Journal of Hydrology*, in revision.
+> Kantoush, S.A., Bolten, J.D., Lakshmi, V. (2026). Relative roles of spatial resolution and temporal
+> coverage in basin-average SMAP soil moisture assimilation over the Mekong River basin.
+> *Journal of Hydrology*, 136599. https://doi.org/10.1016/j.jhydrol.2026.136599
 
 ```bibtex
-@article{marshall_mekong_smap_da,
+@article{marshall2026relative,
   author  = {Marshall, Sebastian R. O. and Tran, Duc and Nguyen, Binh Quang and Le, Manh-Hung
              and Fang, Bin and Elhaddad, Hesham and Eylander, John and Kantoush, Sameh A.
              and Bolten, John D. and Lakshmi, Venkataraman},
   title   = {Relative roles of spatial resolution and temporal coverage in basin-average
-             {SMAP} soil moisture assimilation over the {Mekong River Basin}},
+             {SMAP} soil moisture assimilation over the {Mekong River} basin},
   journal = {Journal of Hydrology},
-  note    = {In revision}
+  year    = {2026},
+  pages   = {136599},
+  doi     = {10.1016/j.jhydrol.2026.136599}
 }
 ```
 

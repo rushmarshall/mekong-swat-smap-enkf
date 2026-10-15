@@ -31,31 +31,41 @@ preferred-citation:
   type: article
   title: >-
     Relative roles of spatial resolution and temporal coverage in basin-average SMAP soil
-    moisture assimilation over the Mekong River Basin
+    moisture assimilation over the Mekong River basin
   authors:
     - family-names: Marshall
       given-names: "Sebastian R. O."
       orcid: "https://orcid.org/0009-0001-0853-6200"
     - family-names: Tran
       given-names: Duc
+      orcid: "https://orcid.org/0000-0001-8478-5893"
     - family-names: Nguyen
       given-names: "Binh Quang"
+      orcid: "https://orcid.org/0000-0001-6292-5349"
     - family-names: Le
       given-names: "Manh-Hung"
     - family-names: Fang
       given-names: Bin
     - family-names: Elhaddad
       given-names: Hesham
+      orcid: "https://orcid.org/0000-0002-6329-7900"
     - family-names: Eylander
       given-names: John
     - family-names: Kantoush
       given-names: "Sameh A."
+      orcid: "https://orcid.org/0000-0003-0919-5097"
     - family-names: Bolten
       given-names: "John D."
+      orcid: "https://orcid.org/0000-0002-1101-9845"
     - family-names: Lakshmi
       given-names: Venkataraman
+      orcid: "https://orcid.org/0000-0001-7431-9004"
   journal: "Journal of Hydrology"
-  status: submitted
+  year: 2026
+  month: 10
+  start: "136599"
+  doi: "10.1016/j.jhydrol.2026.136599"
+  url: "https://doi.org/10.1016/j.jhydrol.2026.136599"
 references:
   - type: article
     title: >-

@@ -5,7 +5,8 @@ Environmental Health and Engineering, Johns Hopkins University.
 
 This repository packages the data-assimilation framework behind Marshall et al.,
 *Relative roles of spatial resolution and temporal coverage in basin-average SMAP soil
-moisture assimilation over the Mekong River Basin* (Journal of Hydrology, in revision). It
+moisture assimilation over the Mekong River basin* (Journal of Hydrology, 2026, 136599,
+https://doi.org/10.1016/j.jhydrol.2026.136599). It
 is assembled from work by several groups. What follows records who wrote what and the terms
 that apply.
 
