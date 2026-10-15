@@ -1,0 +1,15 @@
+# Repository text is LF.
+* text=auto eol=lf
+
+# Preserve exact Fortran bytes, including original CRLF files and the five corrected
+# files whose SHA-256 values tests/test_corrected_operator.py pins.
+fortran/src/** -text
+preprocessing/R/** -text
+
+# Mark the third-party trees as vendored, so the language bar describes what this
+# repository actually contributes rather than what it carries. NOTICE.md draws the same
+# line: SWAT2012 and the EnKF coupling under fortran/src/, and the R preprocessing, are
+# other people's code kept here for provenance. This changes the statistics only; the
+# files stay visible, searchable, and buildable exactly as before.
+fortran/src/** linguist-vendored
+preprocessing/R/** linguist-vendored

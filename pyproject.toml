@@ -1,0 +1,45 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mekong-da"
+version = "1.1.0"
+description = "SMAP soil-moisture data assimilation into SWAT2012 with an ensemble Kalman filter: offline scalar filter and coupled SWAT-DA driver"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { file = "LICENSE" }
+authors = [{ name = "Sebastian R.O. Marshall", email = "smarsh46@jh.edu" }]
+keywords = ["hydrology", "data assimilation", "ensemble kalman filter", "SWAT", "SMAP", "Mekong"]
+classifiers = [
+  "Intended Audience :: Science/Research",
+  "Topic :: Scientific/Engineering :: Hydrology",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Fortran",
+]
+dependencies = [
+  "numpy>=1.24",
+  "pandas>=2.0",
+]
+
+[project.optional-dependencies]
+# Needed only to rebuild the tuning inputs from the raw SMAP NetCDF archives.
+raw = ["xarray>=2023.1", "netCDF4>=1.6", "dask>=2023.1"]
+# Needed only to run the diagnostic analyses under analyses/.
+analyses = ["joblib>=1.3", "statsmodels>=0.14"]
+# Needed only to run the test suite.
+dev = ["pytest>=7.4"]
+
+[project.scripts]
+mekong-da = "mekong_da.cli:main"
+
+[project.urls]
+Repository = "https://github.com/rushmarshall/mekong-swat-smap-enkf"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+markers = ["slow: compiles or runs the Fortran model"]
+filterwarnings = ["ignore::DeprecationWarning"]

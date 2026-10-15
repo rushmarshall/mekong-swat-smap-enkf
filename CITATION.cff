@@ -1,0 +1,119 @@
+cff-version: 1.2.0
+title: "SWAT-SMAP ensemble Kalman filter data assimilation framework"
+message: "If you use this framework, please cite the paper given under preferred-citation."
+type: software
+authors:
+  - family-names: Marshall
+    given-names: "Sebastian R. O."
+    email: smarsh46@jh.edu
+    affiliation: "Department of Environmental Health and Engineering, Johns Hopkins University"
+    orcid: "https://orcid.org/0009-0001-0853-6200"
+version: "1.1.0"
+license: MIT
+repository-code: "https://github.com/rushmarshall/mekong-swat-smap-enkf"
+abstract: >-
+  Data-assimilation framework for satellite soil moisture in SWAT2012: a Python ensemble
+  Kalman filter that assimilates CDF-matched SMAP into basin-average SWAT soil moisture, with
+  its parameter search and diagnostic analyses, and a Python driver for a Fortran SWAT2012
+  build in which an ensemble Kalman filter updates soil-water storage in every hydrologic
+  response unit inside the hydrological time loop, so the analysis propagates into routed
+  discharge. Applied to the Mekong River Basin with SMAP products at 9 km, 1 km and 400 m
+  over 2015 to 2024.
+keywords:
+  - hydrology
+  - data assimilation
+  - ensemble Kalman filter
+  - SWAT
+  - SMAP
+  - soil moisture
+  - Mekong River Basin
+preferred-citation:
+  type: article
+  title: >-
+    Relative roles of spatial resolution and temporal coverage in basin-average SMAP soil
+    moisture assimilation over the Mekong River Basin
+  authors:
+    - family-names: Marshall
+      given-names: "Sebastian R. O."
+      orcid: "https://orcid.org/0009-0001-0853-6200"
+    - family-names: Tran
+      given-names: Duc
+    - family-names: Nguyen
+      given-names: "Binh Quang"
+    - family-names: Le
+      given-names: "Manh-Hung"
+    - family-names: Fang
+      given-names: Bin
+    - family-names: Elhaddad
+      given-names: Hesham
+    - family-names: Eylander
+      given-names: John
+    - family-names: Kantoush
+      given-names: "Sameh A."
+    - family-names: Bolten
+      given-names: "John D."
+    - family-names: Lakshmi
+      given-names: Venkataraman
+  journal: "Journal of Hydrology"
+  status: submitted
+references:
+  - type: article
+    title: >-
+      Improving streamflow simulations and forecasting performance of SWAT model by
+      assimilating remotely sensed soil moisture observations
+    authors:
+      - family-names: Patil
+        given-names: Amol
+      - family-names: Ramsankaran
+        given-names: "R. A. A. J."
+    journal: "Journal of Hydrology"
+    volume: 555
+    start: 683
+    end: 696
+    year: 2017
+    doi: 10.1016/j.jhydrol.2017.10.058
+  - type: article
+    title: >-
+      Assimilation of SMAP products for improving streamflow simulations over tropical
+      climate region: is spatial information more important than temporal information?
+    authors:
+      - family-names: Le
+        given-names: "Manh-Hung"
+      - family-names: Nguyen
+        given-names: "Binh Quang"
+      - family-names: Pham
+        given-names: "Hung T."
+      - family-names: Patil
+        given-names: Amol
+      - family-names: Do
+        given-names: "Hong Xuan"
+      - family-names: Ramsankaran
+        given-names: "R. A. A. J."
+      - family-names: Bolten
+        given-names: "John D."
+      - family-names: Lakshmi
+        given-names: Venkataraman
+    journal: "Remote Sensing"
+    volume: 14
+    issue: 7
+    start: 1607
+    year: 2022
+    doi: 10.3390/rs14071607
+  - type: article
+    title: "Large area hydrologic modeling and assessment part I: model development"
+    authors:
+      - family-names: Arnold
+        given-names: "J. G."
+      - family-names: Srinivasan
+        given-names: R.
+      - family-names: Muttiah
+        given-names: "R. S."
+      - family-names: Williams
+        given-names: "J. R."
+    journal: "Journal of the American Water Resources Association"
+    volume: 34
+    issue: 1
+    start: 73
+    end: 89
+    year: 1998
+    doi: 10.1111/j.1752-1688.1998.tb05961.x

@@ -1,0 +1,7 @@
+{
+  "ensemble_size": 200,
+  "obs_error_std": 0.04,
+  "model_error_std": 0.04,
+  "inflation_factor": 1.02,
+  "persistence_phi": 0.5
+}

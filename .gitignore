@@ -1,0 +1,38 @@
+# Generated results. Everything under outputs/ is regenerable.
+outputs/
+
+# Fortran build products. The sources are tracked; the objects and binary are not,
+# because a 1.6 MB architecture-specific binary is not a reproducible artifact.
+fortran/bin/
+fortran/_build/
+*.o
+*.mod
+*.a
+
+# Model run directories. A single full-basin run is tens of gigabytes.
+runs/
+*.rch
+*.hru
+*.sub
+sample.txt
+sm_ad_mn_std_monthly_marol.txt
+smdqx_ad_marol.txt
+smrfi_ad_marol.txt
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.ipynb_checkpoints/
+.venv/
+
+# OS
+.DS_Store
+
+# Gauge observations and run outputs belong to the user and are never committed.
+data/streamflow/
+data/smap_subbasin_daily/
+data/hru_subbasin_mapping.csv
